@@ -1,32 +1,59 @@
+.resume {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 main {
-    background: black;
-    color: $clr-gray-15;
-    // padding: 1.0em;
-    margin: -900px;
-    padding: 60px 0;
+
 }
 
 .content {
-    // max-width: $desktop-width;
     background: black;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
+    color: white;
+    display: block;
+    font-size: 1em;
+    padding: 2em;
+    height: 100vh;
+    overflow: scroll;
 
     h2 {
-        text-align: left;
-
-        // @include media($desktop) {
-        //     text-align: center;
-        // }
+      margin: 0;
+      padding: 0;
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        color: $clr-highlight-alt;
+    .divider {
+      border-bottom: 1px solid $clr-mint;
+    }
+
+    strong {
+      color: $clr-mint;
+    }
+
+    .description {
+      padding-top: 0.5em;
+    }
+
+    .block {
+      padding: 0.8em 0;
+
+      .work_exp_block {
+        padding-top: 0.7em;
+
+        h4, h5 {
+          padding: 0;
+          margin: 0;
+        }
+
+        h5 {
+          font-style: italic;
+        }
+
+        p {
+          margin: 0;
+          padding: 0;
+        }
+      }
     }
 }
