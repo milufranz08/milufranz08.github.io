@@ -41,9 +41,24 @@ main {
       .work_exp_block {
         padding-top: 0.7em;
 
+        a {
+          color: $clr-mint;
+          cursor: pointer;
+          font-weight: bold;
+          text-decoration: none;
+
+          &:hover {
+            color: $clr-lime;
+          }
+        }
+
         h4, h5 {
           padding: 0;
           margin: 0;
+        }
+
+        h4 {
+          font-size: 1.2em;
         }
 
         h5 {
