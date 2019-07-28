@@ -1,0 +1,28 @@
+footer {
+    background: $clr-eggplant;
+    bottom: 0;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+
+    p {
+      color: $clr-mint;
+      font-size: 0.6em;
+      letter-spacing: 3px;
+      text-align: center;
+      margin: 0;
+    }
+
+    .in_touch_footer {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+
+      .icon {
+        width: 20px;
+        height: 20px;
+        fill: $clr-lime;
+        padding: 0 0.3em;
+      }
+    }
+}

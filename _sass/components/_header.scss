@@ -1,0 +1,33 @@
+// Header component on the front page
+header {
+  background-color: black;
+  z-index: 2;
+
+  .header_section {
+    background-color: $clr-mint;
+    color: white;
+    height: 100vh;
+    text-align: right;
+    padding: 2em;
+    width: 30%;
+
+    h1 {
+      color: black;
+      font-family: Helvetica;
+      font-size: 5em;
+      line-height: 0.9em;
+    }
+
+    .in_touch {
+      display: flex;
+      justify-content: flex-end;
+
+      .icon {
+        width: 20px;
+        height: 20px;
+        fill: black;
+        padding: 0 0.3em;
+      }
+    }
+  }
+}
