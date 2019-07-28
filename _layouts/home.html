@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <body>
       <div class="resume">
