@@ -18,6 +18,17 @@ main {
     height: 100vh;
     overflow: scroll;
 
+    a {
+      color: $clr-mint;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+
+      &:hover {
+        color: $clr-lime;
+      }
+    }
+
     h2 {
       margin: 0;
       padding: 0;
